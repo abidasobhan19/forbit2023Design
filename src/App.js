@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+
+import Homepage from "./components/homepage";
+// import Review from "./components/review";
+// import Service from "./components/our_Service";
+// import TTTT from "./components/rtest";
+// import { Parallax, Background } from "react-parallax";
+import Fuel from "./Image/Feature/fuelmonitoring.png";
+import Summery from "./Image/Feature/summery.png";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;
